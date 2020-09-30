@@ -1,0 +1,76 @@
+/* ***************** Global *****************  */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div{
+    border-radius: 5%;
+}
+
+#container {
+	background: radial-gradient(
+		circle,
+		rgba(255, 111, 0, 1) 0%,
+		rgba(255, 255, 255, 1) 50%,
+		rgba(255, 111, 0, 1) 100%
+	);
+	border: 2px solid;
+	height: 400px;
+	margin: 50px auto;
+	padding: 10px;
+	width: 70%;
+}
+
+#up,#down {
+    border: 2px solid;
+    /* background: radial-gradient(
+		circle,
+		rgba(255, 154, 0, 1) 0%,
+		rgba(255, 255, 255, 1) 50%,
+		rgba(255, 154, 0, 1) 100%
+    ); */
+    /* background-color:rgb(255, 154, 0) */
+    height: 120px;
+	margin: 30px auto;
+    width: 95%;
+    padding: 15px;
+}
+
+/* ***************** Up *****************  */
+
+#up{
+    background: radial-gradient(
+		circle,
+		rgba(255, 154, 0, 1) 0%,
+		rgba(255, 255, 255, 1) 50%,
+		rgba(255, 154, 0, 1) 100%
+    );
+}
+
+
+#up img, #down img{
+    border: 3px inset cyan;
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 0 10px;
+    transition: all 2s;
+}
+
+#up img:hover{
+	transform: rotate(360deg) scale(2);
+}
+
+/* ***************** down *****************  */
+
+#down{
+    background: radial-gradient(
+		circle,
+		rgba(255, 154, 0, 1) 0%,
+		rgba(255, 255, 255, 1) 50%,
+		rgba(255, 154, 0, 1) 100%
+    );
+    /* background-color: red; */
+    /* background-color:rgb(255, 154, 0) */
+}
